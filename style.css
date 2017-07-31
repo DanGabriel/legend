@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image: url(./img/munti2.jpg);
+	height: 400px;
+	background-size: cover;
+}
+.container {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+header h1{
+	margin: 0;
+	color: white;
+	padding: 0;
+}
+.navb li{
+	display: inline;
+	padding: 12px;
+	text-transform: uppercase;
+}
+.navb ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0;
+	
+}
+.logo {
+	float: left;
+	width: 50%;
+	margin-top: 15px;
+}
+.navb{
+	float: right;
+	margin-right: 0;
+}
+.navb a{
+	text-decoration: none;
+	color: white;
+}
+.navb ul li:hover{
+
+}
+.navb ul li a:hover{
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-radius: 20px;
+	padding: 5px;
+	transition: 0.7s;
+}
+.kiloki{
+	width: 120px;
+	height: 120px;
+	border-radius: 60%;
+	border:3px solid white;
+}
+.kiloki:hover{
+	-webkit-transform: rotate(360deg);
+	transition: 2s;
+}
+
+.container.kilo {
+text-align: center;
+color: white;
+}
+.space{
+	height: 120px;
+}
+.sec{
+	text-align: center;
+	max-width: 980px;
+	margin: 0 auto;
+	height: auto;
+}
+.sec h1{
+	border-left: 2px solid blue;
+	margin:0 auto;
+	width: 150px;
+}
+.social {
+	text-align: center;
+	padding: 12px;
+	font-size: 25px;
+	margin-bottom: 80px;
+}
+.social i{
+	padding: 20px;
+	color:blue;
+}
+.social i:hover{
+	color:#333;
+	transition: 0.5s;
+	font-size: 40px;
+}
+.spate{
+	background-color: #f5f5f5;
+	height: auto;
+	width: 100%;
+}
+.toate{
+	text-align: center;
+	margin: 80px auto;
+	display: inline-flex;
+	padding: 20px;
+
+}
+.toate i{
+	border:1px solid blue;
+	color:white;
+	background-color: blue;
+	border-radius: 5px;
+	transition: 0.5s;
+	padding: 20px;
+}
+.toate i:hover{
+	border-radius: 50%;
+	box-shadow: 0 0 6px #666;
+
+}
+.casuta{
+	width: 230px;
+}
+
+@media only screen and (max-width: 680px) {
+	.toate {
+		display: block;
+	}
+	.casuta {width: 100%;
+		margin: 30px 0;}
+}
+.qote{
+	background:url(./img/upload.jpg) no-repeat;
+	background-size:cover;
+
+}
+.poz {
+	position: relative;
+	left:150px;
+	bottom:130px;
+	color: white;
+}
+.sus {
+	position: relative;
+	bottom:100px;
+	border:1px solid black;
+	padding: 10px;
+	width: 220px;
+	background-color: white;
+}
+.bloc {
+	float: left;
+	padding: 70px;
+}
+.bloc2 {
+	float: right;
+	padding: 70px;
+}
+.inln {
+	display: inline-block;
+	width: 100%;
+}
+.harta {
+	width: 100%;
+}
+footer{
+	background-color:#999;
+	width: 100%;
+	height: 50px;
+}
+.obs p {
+	margin: 0;
+	text-align: center;
+	padding-top: 15px;
+	font-family: Raleway,sans-serif;
+}
